@@ -1,7 +1,7 @@
 const tableBody = document.getElementById("tableBody");
-const start = document.getElementById("startBtn");
-const clear = document.getElementById("clear");
-const clean = document.getElementById("clean");
+const start = document.getElementById("getInfoBtn");
+const clear = document.getElementById("clearInfoBtn");
+const clean = document.getElementById("eraseDataBtn");
 
 async function getUsers() {
   try {
