@@ -14,20 +14,24 @@
   </head>
   <body>
     <div class="container">
-      <div class="lines">
-        <div class="line"></div>
-
+      <!-- clase para agregar el fondo animado -->
+      <!--  -->
+      <div class="lines">  
         <div class="text-center">
+          <!-- Botones para las acciones de la pagina -->
           <button type="button" class="btn btn-primary" id="getInfoBtn">
             Leer usuarios
           </button>
-          <button type="button" class="btn btn-danger" id="clearInfoBtn">
+          <div class="line"></div>
+          <button type="button" class="btn btn-secondary" id="clearInfoBtn">
             Limpiar local storage
           </button>
-          <button type="button" class="btn btn-danger" id="eraseDataBtn">
+          <button type="button" class="btn btn-warning" id="eraseDataBtn">
             Borrar datos
           </button>
         </div>
+     
+        <!-- Linea inicial para mostrar como se desplegaran los nombres -->
         <table class="table">
           <thead>
             <tr>
@@ -39,8 +43,7 @@
             </tr>
           </thead>
           <tbody id="tableBody"></tbody>
-        </table>
-        <div class="line"></div>
+        </table>        
       </div>
     </div>
     <script
